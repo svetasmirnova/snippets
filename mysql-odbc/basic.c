@@ -2,6 +2,11 @@
 #include <sql.h>
 #include <sqlext.h>
 
+// Useful links
+// MySQL ODBC reference: https://dev.mysql.com/doc/connector-odbc/en/connector-odbc-reference.html
+// ODBC API reference: https://docs.microsoft.com/en-us/sql/odbc/reference/syntax/odbc-api-reference?view=sql-server-2017
+// Tutorial: https://www.easysoft.com/developer/languages/c/odbc_tutorial.html
+
 int main()
 {
 	SQLHENV env;
